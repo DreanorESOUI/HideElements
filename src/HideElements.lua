@@ -7,7 +7,7 @@ HideElements.defaults = {
 
 function HideElements.Initialize()
   --Load settings
-  HideElements.savedVariables  = ZO_SavedVars:NewAccountWide("HideElementsVars", HideElements.configVersion, nil, HideElements.defaults)
+  HideElements.savedVariables = ZO_SavedVars:NewAccountWide("HideElementsVars", HideElements.configVersion, nil, HideElements.defaults)
 
   HideElements.CreateOptions()
   HideElements.Refresh()
