@@ -1,0 +1,14 @@
+## Description: Change the visibility of different elements in the UI with the addon settings.
+## Title: Hide Elements 1.0
+## OptionalDependsOn: LibAddonMenu-2.0
+## Author: NoPantsuNoLife
+## Version: 1.0
+## APIVersion: 100017
+## SavedVariables: HideElementsVars
+
+Libs/LibStub/LibStub.lua
+Libs/LibAddonMenu-2.0/LibAddonMenu-2.0.lua
+Libs/LibAddonMenu-2.0/controls/panel.lua
+Libs/LibAddonMenu-2.0/controls/checkbox.lua
+
+HideElements.lua
