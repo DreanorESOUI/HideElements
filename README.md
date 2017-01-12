@@ -6,7 +6,3 @@ Addon for Elder Scrolls Online @ http://www.esoui.com/downloads
 See the full changelog @ http://www.esoui.com/downloads/
 
 ![preview](img/preview.jpg)
-
-### Things you can hide from your UI
-* WeaponSwap
-* Compass
