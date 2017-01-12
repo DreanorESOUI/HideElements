@@ -1,4 +1,4 @@
-## Description: Change the visibility of different elements in the UI with the addon settings.
+## Description: Displays different elements from the UI that can be made invisible.
 ## Title: Hide Elements 1.0
 ## OptionalDependsOn: LibAddonMenu-2.0
 ## Author: NoPantsuNoLife
