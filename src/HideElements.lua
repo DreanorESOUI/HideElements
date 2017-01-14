@@ -148,6 +148,7 @@ function HideElements.Refresh()
   HideElements.ChangeWeaponSwap()
   HideElements.HideCompass()
   HideElements.HideBossBar()
+  HideElements.HidePins()
 end
 
 function HideElements.OnAddOnLoaded(event, addonName)
