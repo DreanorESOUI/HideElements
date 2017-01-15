@@ -132,9 +132,11 @@ function HideElements.HideBossBar()
   local hideBossBar = not HideElements.savedVariables.showBossBar
   ZO_BossBarHealthBarLeft:SetHidden(hideBossBar)
   ZO_BossBarHealthBarRight:SetHidden(hideBossBar)
-    
-  HideElements.savedVariables.showBossBarBrackets = HideElements.savedVariables.showBossBar;
-  HideElements.savedVariables.showBossBarText = HideElements.savedVariables.showBossBar;
+  
+  if not HideElements.savedVariables.showBossBar then
+    HideElements.savedVariables.showBossBarBrackets = HideElements.savedVariables.showBossBar;
+    HideElements.savedVariables.showBossBarText = HideElements.savedVariables.showBossBar;
+  end
   HideElements.HideBossBarBrackets()
   HideElements.HideBossBarText()
 end
