@@ -1,9 +1,9 @@
 ## Description: Displays different elements from the UI that can be made invisible.
-## Title: Hide Elements 1.2.1
+## Title: Hide Elements 1.2.2
 ## OptionalDependsOn: LibAddonMenu-2.0
 ## Author: NoPantsuNoLife
-## Version: 1.100017.2.1
-## APIVersion: 100017
+## Version: 1.100018.2.2
+## APIVersion: 100018
 ## SavedVariables: HideElementsVars
 
 Libs/LibStub/LibStub.lua
